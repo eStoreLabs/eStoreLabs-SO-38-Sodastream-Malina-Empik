@@ -1,0 +1,1983 @@
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sodastream syrop Malina</title>
+  <style>
+    @font-face {
+      font-family: HurmeGeometricSans3-Bold;
+      src: local("HurmeGeometricSans3-Bold"),
+        url("./fonts/HurmeGeometricSans3-Bold.woff2") format("woff2");
+    }
+    @font-face {
+      font-family: HurmeGeometricSans3-Regular;
+      src: local("HurmeGeometricSans3-Regular"),
+        url("./fonts/HurmeGeometricSans3-Regular.woff2") format("woff2");
+    }
+    @font-face {
+      font-family: HurmeGeometricSans3-Black;
+      src: local("HurmeGeometricSans3-Black"),
+        url("./fonts/HurmeGeometricSans3-Black.woff2") format("woff2");
+    }
+    @font-face {
+      font-family: HurmeGeometricSans3-Light;
+      src: local("HurmeGeometricSans3-Light"),
+        url("./fonts/HurmeGeometricSans3-Light.woff2") format("woff2");
+    }
+    #es-rc #es-rc-content {
+      font-family: HurmeGeometricSans3-Regular, sans-serif;
+      font-size: 18px;
+      font-weight: 300;
+      line-height: 1.2;
+      max-width: 830px;
+      margin: 0 auto;
+      padding: 0;
+      overflow: hidden;
+      color: #13294b;
+      background: #ebe6e1;
+    }
+    #es-rc #es-rc-content * {
+      box-sizing: border-box;
+    }
+    #es-rc #es-rc-content p {
+      line-height: revert;
+      margin: 0;
+    }
+    #es-rc #es-rc-content h2,
+    #es-rc #es-rc-content h3,
+    #es-rc #es-rc-content h4,
+    #es-rc #es-rc-content h5,
+    #es-rc #es-rc-content h6 {
+      margin: 0;
+      padding-inline: 8px;
+    }
+    #es-rc #es-rc-content img {
+      max-width: 100%;
+      display: block;
+      margin: 0 auto;
+    }
+    #es-rc #es-rc-content .es-h2 {
+      text-align: center;
+      font-family: HurmeGeometricSans3-Regular, sans-serif;
+      font-weight: bold;
+      font-size: 21px;
+      color: #13294b;
+      text-transform: none;
+    }
+    #es-rc #es-rc-content .es-bubble h2,
+    #es-rc #es-rc-content .es-h2-2 {
+      color: #fff;
+    }
+    #es-rc #es-rc-content .es-text {
+      text-align: center;
+      position: relative;
+      z-index: 1;
+      margin: 20px auto 40px;
+      line-height: 1.3;
+      color: #fff;
+    }
+    #es-rc #es-rc-content .es-bold {
+      font-family: HurmeGeometricSans3-Bold, sans-serif;
+    }
+    #es-rc #es-rc-content .es-change__single,
+    #es-rc #es-rc-content .es-kv {
+      position: relative;
+    }
+    #es-rc #es-rc-content .es-kv__logo {
+      margin: 40px auto 20px;
+      max-width: 300px;
+    }
+    #es-rc #es-rc-content .es-change__leaf1,
+    #es-rc #es-rc-content .es-change__leaf2,
+    #es-rc #es-rc-content .es-change__leaf3,
+    #es-rc #es-rc-content .es-change__leaf4,
+    #es-rc #es-rc-content .es-kv__background-text {
+      display: none;
+    }
+    #es-rc #es-rc-content .es-kv__wrapper {
+      display: -webkit-box;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      flex-direction: column;
+      -webkit-box-align: center;
+      align-items: center;
+      position: relative;
+      z-index: 1;
+    }
+    #es-rc #es-rc-content .es-kv__wrapper .es-kv__left {
+      font-size: 16px;
+      width: 90%;
+      text-align: center;
+    }
+    #es-rc #es-rc-content .es-kv__wrapper .es-kv__left .es-h1 {
+      font-family: HurmeGeometricSans3, sans-serif;
+      font-size: 30px;
+      text-transform: uppercase;
+    }
+    #es-rc #es-rc-content .es-kv__wrapper .es-kv__left .es-kv__p {
+      margin-top: 30px;
+    }
+    #es-rc #es-rc-content .es-kv__wrapper .es-kv__left .es-kv__p--bold {
+      font-family: HurmeGeometricSans3-Bold, sans-serif;
+      margin-top: 25px;
+    }
+    #es-rc #es-rc-content .es-kv__wrapper .es-kv__right {
+      width: 45%;
+      margin-top: 20px;
+    }
+    #es-rc #es-rc-content .es-kv__wrapper .es-kv__right .es-kv__img {
+      max-height: 570px;
+      margin-left: -15px;
+    }
+    #es-rc #es-rc-content .es-change {
+      position: relative;
+      z-index: 0;
+      margin-top: 50px;
+      margin-bottom: 45px;
+      padding-top: 10px;
+      color: #fff;
+    }
+    #es-rc #es-rc-content .es-change__background {
+      background-color: #dbcbbf;
+      position: absolute;
+      width: 140%;
+      height: 102%;
+      top: -1%;
+      left: -20%;
+      right: 0;
+      z-index: -1;
+    }
+    #es-rc #es-rc-content .es-change__background2 {
+      background-color: #e23343;
+    }
+    #es-rc #es-rc-content .es-change2__img-1 {
+      max-width: 340px;
+      margin-left: -40px;
+    }
+    #es-rc #es-rc-content .es-change__single-group {
+      position: absolute;
+      display: -webkit-box;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      flex-direction: column;
+      -webkit-box-align: center;
+      align-items: center;
+      top: 55%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      width: 100%;
+    }
+    #es-rc #es-rc-content .es-change2__single-description {
+      max-width: 175px;
+      font-family: HurmeGeometricSans3-Regular, sans-serif;
+      margin-bottom: 50px;
+      color: #13294b;
+      font-size: 12px;
+      text-align: center;
+    }
+    #es-rc #es-rc-content .es-change__wrapper {
+      margin-top: 40px;
+      display: -webkit-box;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      flex-direction: column;
+      -webkit-box-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      align-items: center;
+    }
+    #es-rc #es-rc-content .es-change__wrapper .es-change__single {
+      display: -webkit-box;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      flex-direction: column;
+      -webkit-box-align: center;
+      align-items: center;
+      max-width: 300px;
+      margin-bottom: 25px;
+    }
+    #es-rc #es-rc-content .es-change__single-img3 {
+      width: 360px;
+      margin-left: 60px;
+    }
+    #es-rc #es-rc-content .es-change__wrapper .es-change__single-dot {
+      width: 20px;
+      height: 20px;
+      background-color: #dc141f;
+      border: 1px solid #dc141f;
+      border-radius: 10px;
+      margin: 10px;
+    }
+    #es-rc #es-rc-content .es-change__wrapper .es-change__single-title {
+      text-align: center;
+      font-family: HurmeGeometricSans3-Regular, sans-serif;
+      font-weight: bold;
+      margin-bottom: 50px;
+      color: #13294b;
+    }
+    #es-rc #es-rc-content .es-change__wrapper .es-change__single-title2 {
+      font-size: 25px;
+      margin-bottom: 10px;
+    }
+    #es-rc #es-rc-content .es-one-soda {
+      padding-top: 30px;
+      padding-bottom: 60px;
+    }
+    #es-rc #es-rc-content .es-one-soda__h2 {
+      text-align: center;
+      text-transform: uppercase;
+      font-family: HurmeGeometricSans3-Regular, sans-serif;
+      font-weight: bold;
+      font-size: 25px;
+    }
+    #es-rc #es-rc-content .es-one-soda__wrapper-outer {
+      position: relative;
+      margin-top: 20px;
+    }
+    #es-rc #es-rc-content .es-one-soda__wrapper-outer .es-one-soda__background {
+      background-color: #13294b;
+      position: absolute;
+      width: 140%;
+      height: 110%;
+      top: -5%;
+      left: -20%;
+      right: 0;
+      z-index: 0;
+    }
+    #es-rc #es-rc-content .es-one-soda__wrapper-outer .es-one-soda__wrapper {
+      display: -webkit-box;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      flex-direction: column;
+      position: relative;
+      z-index: 1;
+      -webkit-box-pack: center;
+      justify-content: center;
+      gap: 60px;
+    }
+    #es-rc
+      #es-rc-content
+      .es-one-soda__wrapper-outer
+      .es-one-soda__wrapper
+      .es-one-soda__single {
+      display: -webkit-box;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      flex-direction: column;
+      -webkit-box-pack: end;
+      justify-content: flex-end;
+      -webkit-box-align: center;
+      align-items: center;
+    }
+    #es-rc
+      #es-rc-content
+      .es-one-soda__wrapper-outer
+      .es-one-soda__wrapper
+      .es-one-soda__single-img {
+      max-width: 250px;
+    }
+    #es-rc
+      #es-rc-content
+      .es-one-soda__wrapper-outer
+      .es-one-soda__wrapper
+      .es-one-soda__single-title {
+      font-family: HurmeGeometricSans3-Bold, sans-serif;
+      font-size: 25px;
+      margin-top: 20px;
+      color: #fff;
+    }
+    #es-rc #es-rc-content .es-one-soda__wrapper-outer .es-one-soda__text {
+      width: 90%;
+    }
+    #es-rc #es-rc-content .es-perfect {
+      margin-bottom: 30px;
+      position: relative;
+      z-index: 1;
+    }
+    #es-rc #es-rc-content .es-perfect__text {
+      width: 80%;
+      margin-bottom: 30px;
+      color: #13294b;
+      font-size: 16px;
+    }
+    #es-rc #es-rc-content .es-perfect__background-text {
+      font-family: HurmeGeometricSans3-Bold, sans-serif;
+      color: #e2d7ce;
+      font-size: 90px;
+      position: absolute;
+      top: 15%;
+      left: 0;
+      right: 0;
+      text-align: center;
+      z-index: 0;
+      display: none;
+    }
+    #es-rc #es-rc-content .es-perfect__wrapper {
+      position: relative;
+      z-index: 1;
+      display: -webkit-box;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      flex-direction: column;
+      -webkit-box-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      align-items: center;
+      gap: 40px;
+      margin-bottom: 40px;
+    }
+    #es-rc #es-rc-content .es-perfect__wrapper .es-perfect__single {
+      display: -webkit-box;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      flex-direction: column;
+      -webkit-box-align: center;
+      align-items: center;
+      width: 90%;
+    }
+    #es-rc #es-rc-content .es-perfect__wrapper .es-perfect__single-number {
+      font-family: HurmeGeometricSans3-Black, sans-serif;
+      font-size: 60px;
+      margin-bottom: 20px;
+    }
+    #es-rc #es-rc-content .es-perfect__wrapper .es-perfect__single-img {
+      max-width: 150px;
+    }
+    #es-rc #es-rc-content .es-perfect__wrapper .es-perfect__single-text {
+      text-align: center;
+      font-size: 16px;
+      margin-top: 25px;
+      width: 100%;
+    }
+    #es-rc #es-rc-content .es-perfect__disclaimer {
+      font-size: 10px;
+      text-align: center;
+    }
+    #es-rc #es-rc-content .es-perfect__disclaimer2 {
+      color: #13294b;
+    }
+    #es-rc #es-rc-content .es-bottle {
+      margin-top: 40px;
+      margin-bottom: 20px;
+      color: #fff;
+    }
+    #es-rc #es-rc-content .es-bottle__wrapper {
+      display: -webkit-box;
+      display: flex;
+      -webkit-box-pack: center;
+      justify-content: center;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      flex-direction: column;
+      -webkit-box-align: center;
+      align-items: center;
+      gap: 25px;
+    }
+    #es-rc #es-rc-content .es-bottle__wrapper .es-bottle__single-wrapper {
+      display: -webkit-box;
+      display: flex;
+      -webkit-box-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      align-items: center;
+      background-color: #e23343;
+      border: 1px solid #e23343;
+      border-radius: 50%;
+      font-family: HurmeGeometricSans3-Regular, sans-serif;
+      font-weight: bold;
+      text-align: center;
+      width: 320px;
+      height: 320px;
+    }
+    #es-rc
+      #es-rc-content
+      .es-bottle__wrapper
+      .es-bottle__single-wrapper
+      .es-bottle__h2 {
+      font-size: 30px;
+      text-transform: none;
+    }
+    #es-rc #es-rc-content .es-bottle__wrapper .es-bottle__single-third {
+      position: relative;
+    }
+    #es-rc #es-rc-content .es-bottle__wrapper .es-bottle__single-third-image {
+      position: absolute;
+      bottom: 0;
+      width: 75px;
+      right: 20px;
+    }
+    #es-rc #es-rc-content .es-bottle__wrapper .es-bottle__single:first-child,
+    #es-rc #es-rc-content .es-bottle__wrapper .es-bottle__single:nth-child(3) {
+      position: relative;
+      z-index: 1;
+    }
+    #es-rc #es-rc-content .es-bottle__wrapper .es-bottle__single:nth-child(2) {
+      width: 320px;
+      height: 320px;
+      position: relative;
+      z-index: 0;
+    }
+    #es-rc
+      #es-rc-content
+      .es-bottle__wrapper
+      .es-bottle__single:nth-child(3)
+      .es-bottle__single-wrapper {
+      width: 320px;
+      height: 320px;
+    }
+    #es-rc
+      #es-rc-content
+      .es-bottle__wrapper
+      .es-bottle__single:nth-child(3)
+      .es-bottle__single-wrapper
+      .es-bottle__text {
+      padding: 0 45px;
+    }
+    #es-rc
+      #es-rc-content
+      .es-bottle__wrapper
+      .es-bottle__single
+      .es-bottle__leaf1 {
+      position: absolute;
+      display: none;
+      bottom: -3%;
+      left: -6%;
+      max-width: 100px;
+      z-index: -1;
+    }
+    #es-rc
+      #es-rc-content
+      .es-bottle__wrapper
+      .es-bottle__single
+      .es-bottle__leaf2 {
+      position: absolute;
+      display: none;
+      top: -1%;
+      right: -30%;
+      max-width: 145px;
+      z-index: -1;
+    }
+    #es-rc #es-rc-content .es-day__text {
+      width: 80%;
+      color: #0e1b62;
+      font-size: 14px;
+    }
+    #es-rc #es-rc-content .es-day__wrapper {
+      position: relative;
+      display: -webkit-box;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      flex-direction: column;
+      -webkit-box-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      align-items: center;
+      z-index: 1;
+      padding-top: 50px;
+    }
+    #es-rc #es-rc-content .es-day__wrapper-background {
+      position: absolute;
+      background-color: #e2d7ce;
+      border: 1px solid #e2d7ce;
+      z-index: 0;
+      width: 100%;
+      height: 100%;
+    }
+    #es-rc #es-rc-content .es-day__wrapper .es-day__single {
+      text-align: center;
+      font-size: 16px;
+      line-height: 1.3;
+      display: -webkit-box;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      flex-direction: column;
+      -webkit-box-align: center;
+      align-items: center;
+      position: relative;
+      max-width: 300px;
+      margin-bottom: 20px;
+    }
+    #es-rc #es-rc-content .es-adventure__wrapper .es-adventure__leaf1,
+    #es-rc #es-rc-content .es-adventure__wrapper .es-adventure__leaf2,
+    #es-rc
+      #es-rc-content
+      .es-day__wrapper
+      .es-day__single
+      .es-day__single-sun
+      .es-day__single-background {
+      display: none;
+    }
+
+    #es-rc
+      #es-rc-content
+      .es-adventure__wrapper
+      .es-adventure__top-row__single-img
+      .es-adventure__top-row__single-img-1 {
+      margin-left: 25px;
+    }
+    #es-rc
+      #es-rc-content
+      .es-adventure__wrapper
+      .es-adventure__top-row__single-img
+      .es-adventure__top-row__single-img-2 {
+      margin-left: 25px;
+    }
+    #es-rc
+      #es-rc-content
+      .es-adventure__wrapper
+      .es-adventure__bottom-row__single-img
+      .es-adventure__bottom-row__single-img-3 {
+      margin-left: -25px;
+    }
+    #es-rc
+      #es-rc-content
+      .es-adventure__wrapper
+      .es-adventure__bottom-row__single-img
+      .es-adventure__bottom-row__single-img-4 {
+      margin-left: 25px;
+    }
+    #es-rc #es-rc-content .es-day__wrapper .es-day__single .es-day__single-sun {
+      position: relative;
+      margin-bottom: 10px;
+    }
+    #es-rc
+      #es-rc-content
+      .es-day__wrapper
+      .es-day__single
+      .es-day__single-sun
+      img {
+      width: 70%;
+      margin-top: 15px;
+      position: relative;
+      z-index: 1;
+    }
+    #es-rc
+      #es-rc-content
+      .es-day__wrapper
+      .es-day__single
+      .es-day__single-text {
+      max-width: 300px;
+      margin-bottom: 25px;
+    }
+    #es-rc
+      #es-rc-content
+      .es-day__wrapper
+      .es-day__single:nth-child(2)
+      .es-day__single-sun
+      .es-day__single-background {
+      background-color: #fbea71;
+      top: -7px;
+      left: 20px;
+    }
+    #es-rc
+      #es-rc-content
+      .es-day__wrapper
+      .es-day__single:nth-child(3)
+      .es-day__single-sun
+      .es-day__single-background {
+      background-color: #f7b800;
+      top: -7px;
+      left: -10px;
+    }
+    #es-rc
+      #es-rc-content
+      .es-day__wrapper
+      .es-day__single:nth-child(3)
+      .es-day__single-sun
+      img {
+      margin-top: 0;
+    }
+    #es-rc
+      #es-rc-content
+      .es-day__wrapper
+      .es-day__single:nth-child(4)
+      .es-day__single-sun
+      .es-day__single-background {
+      background-color: #415e8b;
+      top: -7px;
+      left: -17px;
+    }
+    #es-rc #es-rc-content .es-day__wrapper .es-day__wrapper-blue-background {
+      background-color: #13294b;
+      border: 1px solid #13294b;
+      border-radius: 43%;
+      position: absolute;
+      top: 55%;
+      left: -20%;
+      right: 0;
+      width: 140%;
+      height: 145%;
+      z-index: 0;
+      display: none;
+    }
+    #es-rc #es-rc-content .es-bubble {
+      margin-top: 30px;
+      margin-bottom: 60px;
+      color: #ebe6e1;
+      position: relative;
+      text-align: center;
+      z-index: 1;
+    }
+    #es-rc #es-rc-content .es-bubble__background {
+      background-color: #13294b;
+      position: absolute;
+      top: -30px;
+      left: 0;
+      right: 0;
+      width: 100%;
+      height: calc(100% + 60px);
+      z-index: -1;
+      display: block;
+    }
+    #es-rc #es-rc-content .es-bubble__text {
+      margin: 25px auto;
+      width: 75%;
+      z-index: 1;
+      font-size: 14px;
+    }
+    #es-rc #es-rc-content .es-adventure {
+      margin-top: 30px;
+      margin-bottom: 20px;
+    }
+    #es-rc #es-rc-content .es-adventure .es-h2 {
+      margin: 30px 0;
+      padding-top: 20px;
+    }
+    #es-rc
+      #es-rc-content
+      .es-adventure__wrapper
+      .es-adventure__bottom-row__single-text,
+    #es-rc
+      #es-rc-content
+      .es-adventure__wrapper
+      .es-adventure__top-row__single
+      .es-adventure__top-row__single-text {
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
+    #es-rc #es-rc-content .es-adventure__wrapper {
+      text-align: center;
+      position: relative;
+      font-size: 12px;
+    }
+    #es-rc #es-rc-content .es-adventure__wrapper .es-adventure__tonic img {
+      max-height: 300px;
+      margin-bottom: 30px;
+    }
+    #es-rc #es-rc-content .es-adventure__wrapper .es-adventure__bottom-row,
+    #es-rc #es-rc-content .es-adventure__wrapper .es-adventure__top-row {
+      display: -webkit-box;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      flex-direction: column;
+      -webkit-box-align: center;
+      align-items: center;
+    }
+    #es-rc
+      #es-rc-content
+      .es-adventure__wrapper
+      .es-adventure__top-row__single {
+      display: -webkit-box;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      flex-direction: column;
+      max-width: 300px;
+    }
+    #es-rc
+      #es-rc-content
+      .es-adventure__wrapper
+      .es-adventure__bottom-row__single {
+      display: -webkit-box;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: reverse;
+      flex-direction: column-reverse;
+      max-width: 300px;
+    }
+    #es-rc #es-rc-content .es-end {
+      padding-top: 120px;
+      margin-top: -90px;
+    }
+    #es-rc #es-rc-content .es-end__big {
+      display: block;
+      font-weight: bold;
+      font-size: 30px;
+      margin-bottom: -20px;
+    }
+    #es-rc #es-rc-content .es-end__img {
+      width: 90%;
+      margin: 50px auto;
+    }
+    #es-rc #es-rc-content .es-end__logo {
+      max-width: 250px;
+      margin: 50px auto;
+    }
+    #es-rc #es-rc-content .es-end .es-end__hashtag {
+      font-size: 17px;
+      word-break: break-all;
+    }
+    #es-rc
+      #es-rc-content
+      .es-adventure__wrapper
+      .es-adventure__top-row__single-img
+      .es-adventure__top-row__single-img-2 {
+      max-width: 250px;
+    }
+    @media (min-width: 576px) {
+      #es-rc #es-rc-content .es-one-soda__wrapper-outer {
+        margin-top: -25px;
+      }
+      #es-rc #es-rc-content .es-end .es-h2.es-end__hashtag {
+        font-size: 24px;
+        word-break: keep-all;
+      }
+      #es-rc #es-rc-content .es-kv__wrapper .es-kv__right .es-kv__img {
+        margin-left: auto;
+      }
+    }
+    @media (min-width: 720px) {
+      #es-rc #es-rc-content .es-change {
+        margin-top: 0;
+      }
+      #es-rc #es-rc-content .es-kv {
+        padding-left: 60px;
+        margin-bottom: 40px;
+      }
+      #es-rc #es-rc-content .es-kv__logo {
+        margin-left: unset;
+        margin-right: unset;
+        margin-bottom: unset;
+        max-width: 225px;
+      }
+      #es-rc #es-rc-content .es-kv__wrapper {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        flex-direction: row;
+      }
+      #es-rc #es-rc-content .es-kv__wrapper .es-kv__left {
+        margin-top: -50px;
+        text-align: left;
+      }
+      #es-rc #es-rc-content .es-kv__wrapper .es-kv__left .es-h1 {
+        font-size: 37px;
+      }
+      #es-rc #es-rc-content .es-kv__wrapper .es-kv__left .es-kv__p {
+        margin-top: 10px;
+        max-width: 60%;
+      }
+      #es-rc #es-rc-content .es-kv__wrapper .es-kv__right {
+        width: 30%;
+        margin-top: -40px;
+      }
+      #es-rc #es-rc-content .es-change__background {
+        background-color: #dbcbbf;
+        border: 1px solid #dbcbbf;
+        border-radius: 50%;
+        width: 140%;
+        height: 104%;
+        top: -13%;
+        left: -20%;
+        right: 0;
+        z-index: -1;
+      }
+      #es-rc #es-rc-content .es-change__background2 {
+        background-color: #e23343;
+        border: 1px solid #e23343;
+        top: -50px;
+        height: 72%;
+      }
+      #es-rc #es-rc-content .es-change__wrapper {
+        margin-top: 30px;
+        margin-bottom: 20px;
+        display: -webkit-box;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        flex-direction: row;
+        -webkit-box-pack: center;
+        justify-content: center;
+      }
+      #es-rc #es-rc-content .es-change__wrapper .es-change__single {
+        width: 25%;
+        display: -webkit-box;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        flex-direction: column;
+        -webkit-box-align: center;
+        align-items: center;
+        max-width: unset;
+        margin-bottom: unset;
+      }
+      #es-rc #es-rc-content .es-change__wrapper .es-change__single-dot {
+        width: 20px;
+        height: 20px;
+        background-color: #dc141f;
+        border: 1px solid #dc141f;
+        border-radius: 10px;
+        margin: 10px;
+      }
+      #es-rc #es-rc-content .es-change__wrapper .es-change__single-title {
+        text-align: center;
+        font-family: HurmeGeometricSans3-Regular, sans-serif;
+        font-weight: bold;
+        margin-bottom: 30px;
+        font-size: 18px;
+        max-width: 200px;
+      }
+      #es-rc #es-rc-content .es-change__wrapper .es-change__single:first-child {
+        position: relative;
+        z-index: 1;
+      }
+      #es-rc
+        #es-rc-content
+        .es-change__wrapper
+        .es-change__single:nth-child(2) {
+        width: 40%;
+        margin-top: -20px;
+        position: relative;
+        z-index: 1;
+      }
+      #es-rc
+        #es-rc-content
+        .es-change__wrapper
+        .es-change__single:nth-child(4) {
+        position: relative;
+        z-index: 0;
+      }
+      #es-rc #es-rc-content .es-one-soda {
+        padding-top: 0;
+      }
+      #es-rc #es-rc-content .es-one-soda__h2 {
+        font-size: 30px;
+      }
+      #es-rc #es-rc-content .es-one-soda__wrapper-outer {
+        position: relative;
+        margin-top: -50px;
+      }
+      #es-rc
+        #es-rc-content
+        .es-one-soda__wrapper-outer
+        .es-one-soda__background {
+        border-radius: 50%;
+        position: absolute;
+        width: 140%;
+        height: 130%;
+        top: -15%;
+        left: -20%;
+        right: 0;
+        z-index: 0;
+      }
+      #es-rc #es-rc-content .es-one-soda__wrapper-outer .es-one-soda__wrapper {
+        display: -webkit-box;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        flex-direction: row;
+        position: relative;
+        z-index: 1;
+        -webkit-box-pack: center;
+        justify-content: center;
+        gap: 60px;
+      }
+      #es-rc
+        #es-rc-content
+        .es-one-soda__wrapper-outer
+        .es-one-soda__wrapper
+        .es-one-soda__single-img {
+        max-width: 180px;
+      }
+      #es-rc
+        #es-rc-content
+        .es-one-soda__wrapper-outer
+        .es-one-soda__wrapper
+        .es-one-soda__single-title {
+        font-size: 25px;
+        margin-top: 20px;
+      }
+      #es-rc #es-rc-content .es-one-soda__wrapper-outer .es-one-soda__text {
+        font-size: 16px;
+        width: 70%;
+      }
+      #es-rc #es-rc-content .es-perfect__text {
+        width: 60%;
+        margin-bottom: 80px;
+      }
+
+      #es-rc #es-rc-content .es-perfect__wrapper {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        flex-direction: row;
+        -webkit-box-align: start;
+        align-items: flex-start;
+        gap: 145px;
+      }
+      #es-rc #es-rc-content .es-perfect {
+        margin-bottom: 100px;
+      }
+      #es-rc #es-rc-content .es-perfect__wrapper .es-perfect__single {
+        width: 14%;
+      }
+
+      #es-rc #es-rc-content .es-perfect__wrapper .es-perfect__single-text {
+        width: 200%;
+      }
+      #es-rc
+        #es-rc-content
+        .es-perfect__wrapper
+        .es-perfect__single:nth-child(2) {
+        width: 14%;
+      }
+      #es-rc #es-rc-content .es-bottle {
+        margin-top: 40px;
+        margin-bottom: 60px;
+      }
+      #es-rc #es-rc-content .es-bottle__wrapper {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        flex-direction: row;
+        -webkit-box-align: unset;
+        align-items: unset;
+        gap: unset;
+      }
+      #es-rc #es-rc-content .es-bottle__wrapper .es-bottle__single-wrapper {
+        -webkit-box-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        align-items: center;
+        font-size: 16px;
+      }
+      #es-rc
+        #es-rc-content
+        .es-bottle__wrapper
+        .es-bottle__single-wrapper
+        .es-bottle__h2 {
+        font-size: 25px;
+      }
+      #es-rc #es-rc-content .es-bottle__wrapper .es-bottle__single:first-child {
+        align-self: flex-start;
+        width: 25%;
+        margin-right: -6%;
+      }
+      #es-rc
+        #es-rc-content
+        .es-bottle__wrapper
+        .es-bottle__single:first-child
+        .es-bottle__single-wrapper {
+        width: 210px;
+        height: 210px;
+      }
+      #es-rc
+        #es-rc-content
+        .es-bottle__wrapper
+        .es-bottle__single:nth-child(2) {
+        align-self: center;
+        width: 40%;
+        height: unset;
+      }
+      #es-rc
+        #es-rc-content
+        .es-bottle__wrapper
+        .es-bottle__single:nth-child(3) {
+        align-self: flex-end;
+        margin-left: -8%;
+        margin-bottom: -30px;
+      }
+      #es-rc
+        #es-rc-content
+        .es-bottle__wrapper
+        .es-bottle__single:nth-child(3)
+        .es-bottle__single-wrapper {
+        width: 290px;
+        height: 290px;
+      }
+      #es-rc
+        #es-rc-content
+        .es-bottle__wrapper
+        .es-bottle__single:nth-child(3)
+        .es-bottle__single-wrapper
+        .es-bottle__text {
+        padding: 0 35px;
+      }
+      #es-rc #es-rc-content .es-day__text {
+        width: 60%;
+      }
+      #es-rc #es-rc-content .es-adventure__wrapper .es-adventure__top-row {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        flex-direction: row;
+        -webkit-box-pack: space-evenly;
+        justify-content: space-evenly;
+        -webkit-box-align: end;
+        align-items: end;
+      }
+      #es-rc #es-rc-content .es-adventure__wrapper .es-adventure__bottom-row {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        flex-direction: row;
+        justify-content: space-around;
+      }
+      #es-rc #es-rc-content .es-end {
+        background-image: url("./img/background.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center 94%;
+      }
+      #es-rc #es-rc-content .es-change__leaf3 {
+        display: block;
+        position: absolute;
+        right: 0;
+        bottom: 95%;
+        width: 50px;
+        z-index: -1;
+      }
+      #es-rc #es-rc-content .es-change__single-img3 {
+        width: 125%;
+      }
+      #es-rc #es-rc-content .es-change2__img-1 {
+        max-width: 270px;
+        margin-left: -40px;
+      }
+      #es-rc #es-rc-content .es-change2__img-3 {
+        max-width: 240px;
+      }
+      #es-rc #es-rc-content .es-kv__wrapper .es-kv__right .es-kv__img {
+        margin-left: -95px;
+      }
+    }
+    @media (min-width: 800px) {
+      #es-rc #es-rc-content .es-change__background {
+        top: -17%;
+      }
+      #es-rc #es-rc-content .es-change__leaf3 {
+        bottom: 80%;
+        width: 80px;
+      }
+    }
+    @media (min-width: 820px) {
+      #es-rc
+        #es-rc-content
+        .es-adventure__wrapper
+        .es-adventure__bottom-row
+        img,
+      #es-rc #es-rc-content .es-adventure__wrapper .es-adventure__top-row img {
+        max-width: 280px;
+      }
+      #es-rc #es-rc-content .es-kv__wrapper .es-kv__left .es-h1 {
+        font-size: 32px;
+        padding-inline: 0px;
+      }
+      #es-rc #es-rc-content .es-kv__wrapper .es-kv__left .es-kv__p {
+        margin-top: 30px;
+      }
+      #es-rc #es-rc-content .es-kv__p--bold {
+        max-width: 81%;
+      }
+      #es-rc #es-rc-content .es-kv__background-text {
+        display: block;
+        color: #e5dcd3;
+        font-family: HurmeGeometricSans3-Black, sans-serif;
+        font-size: 150px;
+        text-align: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 0;
+      }
+      #es-rc #es-rc-content .es-change__leaf1 {
+        display: block;
+        position: absolute;
+        left: 0;
+        bottom: 30%;
+        width: 14%;
+      }
+      #es-rc #es-rc-content .es-change__leaf1-2 {
+        bottom: 79%;
+      }
+      #es-rc #es-rc-content .es-change__wrapper .es-change__single-title {
+        font-size: 14px;
+        max-width: unset;
+      }
+      #es-rc #es-rc-content .es-change__wrapper .es-change__single-title2 {
+        font-size: 24px;
+        max-width: unset;
+      }
+      #es-rc #es-rc-content .es-change2__single-description {
+        max-width: 215px;
+      }
+      #es-rc #es-rc-content .es-change__single-group-first,
+      #es-rc #es-rc-content .es-change__single-group-second {
+        position: absolute;
+      }
+      #es-rc #es-rc-content .es-change__single-group-third {
+        position: absolute;
+      }
+      #es-rc #es-rc-content .es-change__single-img {
+        position: relative;
+        z-index: 1;
+      }
+      #es-rc #es-rc-content .es-change__leaf2 {
+        display: block;
+        position: absolute;
+        left: 34%;
+        bottom: 4.5vw;
+        width: 200px;
+        z-index: -1;
+      }
+      #es-rc #es-rc-content .es-change__leaf3 {
+        display: block;
+        position: absolute;
+        right: 0;
+        bottom: 82%;
+        width: 100px;
+        z-index: -1;
+      }
+      #es-rc #es-rc-content .es-change__leaf3-1 {
+        bottom: 78%;
+      }
+      #es-rc #es-rc-content .es-change__leaf4 {
+        display: block;
+        position: absolute;
+        left: 53%;
+        bottom: 0;
+        width: 200px;
+        z-index: -1;
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+      }
+      #es-rc #es-rc-content .es-one-soda__wrapper-outer {
+        position: relative;
+        margin-top: -100px;
+      }
+      #es-rc #es-rc-content .es-perfect__background-text {
+        display: block;
+      }
+      #es-rc #es-rc-content .es-bottle__wrapper {
+        -webkit-box-pack: center;
+        justify-content: center;
+      }
+      #es-rc
+        #es-rc-content
+        .es-bottle__wrapper
+        .es-bottle__single
+        .es-bottle__h2 {
+        font-size: 24px;
+      }
+      #es-rc #es-rc-content .es-bottle__wrapper .es-bottle__single:first-child {
+        margin-right: -5px;
+      }
+      #es-rc
+        #es-rc-content
+        .es-bottle__wrapper
+        .es-bottle__single:first-child
+        .es-bottle__single-wrapper {
+        width: 220px;
+        height: 220px;
+      }
+      #es-rc
+        #es-rc-content
+        .es-bottle__wrapper
+        .es-bottle__single:nth-child(3) {
+        margin-left: -40px;
+      }
+      #es-rc
+        #es-rc-content
+        .es-bottle__wrapper
+        .es-bottle__single:nth-child(3)
+        .es-bottle__single-wrapper {
+        width: 260px;
+        height: 260px;
+        font-size: 14px;
+      }
+      #es-rc
+        #es-rc-content
+        .es-bottle__wrapper
+        .es-bottle__single
+        .es-bottle__leaf1,
+      #es-rc
+        #es-rc-content
+        .es-bottle__wrapper
+        .es-bottle__single
+        .es-bottle__leaf2 {
+        display: block;
+      }
+      #es-rc #es-rc-content .es-day__wrapper {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        flex-direction: row;
+        padding-top: 30px;
+      }
+      #es-rc #es-rc-content .es-day__wrapper-background {
+        border-radius: 50%;
+        z-index: 0;
+        width: 140%;
+        margin-top: -40px;
+      }
+      #es-rc #es-rc-content .es-bold {
+        font-size: 16px;
+      }
+      #es-rc #es-rc-content .es-day__wrapper .es-day__single {
+        max-width: unset;
+        margin-bottom: unset;
+      }
+      #es-rc
+        #es-rc-content
+        .es-day__wrapper
+        .es-day__single
+        .es-day__single-sun {
+        position: relative;
+      }
+      #es-rc
+        #es-rc-content
+        .es-day__wrapper
+        .es-day__single
+        .es-day__single-sun
+        .es-day__single-background {
+        display: block;
+        position: absolute;
+        width: 130px;
+        height: 130px;
+        border-radius: 50%;
+        z-index: -2;
+      }
+      #es-rc
+        #es-rc-content
+        .es-day__wrapper
+        .es-day__single
+        .es-day__single-text {
+        font-size: 13px;
+        max-width: 230px;
+      }
+      #es-rc #es-rc-content .es-day__wrapper .es-day__single:nth-child(2) {
+        width: 30%;
+        margin-right: -40px;
+      }
+      #es-rc
+        #es-rc-content
+        .es-day__wrapper
+        .es-day__single:nth-child(2)
+        .es-day__single-sun {
+        margin-bottom: 25px;
+      }
+      #es-rc
+        #es-rc-content
+        .es-day__wrapper
+        .es-day__single:nth-child(2)
+        .es-day__single-text {
+        margin-bottom: 20px;
+      }
+      #es-rc #es-rc-content .es-day__wrapper .es-day__single:nth-child(2) img {
+        position: relative;
+        z-index: 1;
+      }
+      #es-rc #es-rc-content .es-day__wrapper .es-day__single:nth-child(3) {
+        width: 40%;
+      }
+      #es-rc
+        #es-rc-content
+        .es-day__wrapper
+        .es-day__single:nth-child(3)
+        .es-day__single-sun {
+        margin-bottom: 10px;
+      }
+      #es-rc
+        #es-rc-content
+        .es-day__wrapper
+        .es-day__single:nth-child(3)
+        .es-day__single-text,
+      #es-rc
+        #es-rc-content
+        .es-day__wrapper
+        .es-day__single:nth-child(4)
+        .es-day__single-sun {
+        margin-bottom: 25px;
+      }
+      #es-rc #es-rc-content .es-day__wrapper .es-day__single:nth-child(3) img {
+        position: relative;
+        z-index: 2;
+      }
+      #es-rc #es-rc-content .es-day__wrapper .es-day__single:nth-child(4) {
+        width: 30%;
+        margin-left: -40px;
+      }
+      #es-rc
+        #es-rc-content
+        .es-day__wrapper
+        .es-day__single:nth-child(4)
+        .es-day__single-text {
+        margin-bottom: 20px;
+      }
+      #es-rc #es-rc-content .es-day__wrapper .es-day__single:nth-child(4) img {
+        position: relative;
+        z-index: 1;
+      }
+      #es-rc #es-rc-content .es-day__wrapper .es-day__wrapper-blue-background {
+        display: block;
+        height: 135%;
+      }
+      #es-rc #es-rc-content .es-bubble {
+        margin-top: 30px;
+        margin-bottom: 50px;
+      }
+      #es-rc #es-rc-content .es-bubble__background {
+        display: none;
+      }
+      #es-rc #es-rc-content .es-adventure {
+        padding: 50px 10px 10px;
+      }
+      #es-rc #es-rc-content .es-adventure .es-h2 {
+        margin: 20px 0 30px;
+      }
+      #es-rc #es-rc-content .es-adventure__wrapper .es-adventure__tonic {
+        width: 380px;
+        height: 380px;
+        background-color: #e23343;
+        border: 1px solid #e23343;
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        z-index: 0;
+      }
+      #es-rc #es-rc-content .es-adventure__wrapper .es-adventure__tonic img {
+        position: absolute;
+        top: 51%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        margin-left: -25px;
+        margin-top: 60px;
+        max-height: 300px;
+      }
+      #es-rc #es-rc-content .es-adventure__wrapper .es-adventure__top-row {
+        display: -webkit-box;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        flex-direction: row;
+        -webkit-box-pack: center;
+        justify-content: center;
+        -webkit-box-align: unset;
+        align-items: unset;
+        margin-bottom: 50px;
+        -webkit-column-gap: 0px;
+        -moz-column-gap: 0px;
+        column-gap: 0px;
+        position: relative;
+        z-index: 1;
+      }
+      #es-rc
+        #es-rc-content
+        .es-adventure__wrapper
+        .es-adventure__top-row__single-img
+        .es-adventure__top-row__single-img-1 {
+        max-width: 245px;
+        margin: 0 auto;
+      }
+      #es-rc
+        #es-rc-content
+        .es-adventure__wrapper
+        .es-adventure__top-row__single-img
+        .es-adventure__top-row__single-img-2 {
+        max-width: 200px;
+        margin: 0 auto;
+      }
+      #es-rc
+        #es-rc-content
+        .es-adventure__wrapper
+        .es-adventure__bottom-row__single-img
+        .es-adventure__bottom-row__single-img-3 {
+        max-width: 215px;
+        margin: 0 auto;
+      }
+      #es-rc
+        #es-rc-content
+        .es-adventure__wrapper
+        .es-adventure__bottom-row__single-img
+        .es-adventure__bottom-row__single-img-4 {
+        max-width: 240px;
+        margin: 0 auto;
+      }
+      #es-rc
+        #es-rc-content
+        .es-adventure__wrapper
+        .es-adventure__top-row__single {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        flex-direction: column;
+        -webkit-box-pack: justify;
+        justify-content: space-between;
+      }
+      #es-rc
+        #es-rc-content
+        .es-adventure__wrapper
+        .es-adventure__top-row__single:nth-child(2)
+        .es-adventure__top-row__single-text {
+        margin-bottom: 40px;
+      }
+      #es-rc #es-rc-content .es-adventure__wrapper .es-adventure__bottom-row {
+        display: -webkit-box;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        flex-direction: row;
+        justify-content: space-around;
+        -webkit-box-align: unset;
+        align-items: unset;
+        position: relative;
+        z-index: 1;
+      }
+      #es-rc
+        #es-rc-content
+        .es-adventure__wrapper
+        .es-adventure__bottom-row__single {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        flex-direction: column;
+      }
+      #es-rc
+        #es-rc-content
+        .es-adventure__wrapper
+        .es-adventure__bottom-row__single
+        .es-adventure__bottom-row__single-text {
+        margin-bottom: 0;
+        margin-top: 10px;
+      }
+      #es-rc #es-rc-content .es-adventure__wrapper .es-adventure__leaf1 {
+        display: block;
+        width: 250px;
+        position: absolute;
+        top: 43%;
+        right: 1%;
+        z-index: 0;
+      }
+      #es-rc #es-rc-content .es-adventure__wrapper .es-adventure__leaf2 {
+        display: block;
+        width: 138px;
+        position: absolute;
+        top: 32%;
+        left: 6%;
+        z-index: 0;
+      }
+      #es-rc
+        #es-rc-content
+        .es-change__wrapper
+        .es-change__single:nth-child(2) {
+        width: 32%;
+      }
+      #es-rc #es-rc-content .es-change__wrapper .es-change__single:first-child {
+        margin-right: 0px;
+        position: relative;
+        z-index: 1;
+      }
+      #es-rc
+        #es-rc-content
+        .es-change__wrapper
+        .es-change__single:nth-child(4) {
+        margin-left: -5px;
+      }
+      #es-rc
+        #es-rc-content
+        .es-change2
+        .es-change__wrapper
+        .es-change__single:first-child {
+        margin-right: 10px;
+      }
+      #es-rc
+        #es-rc-content
+        .es-change2
+        .es-change__wrapper
+        .es-change__single:nth-child(4) {
+        margin-left: 15px;
+      }
+      #es-rc #es-rc-content .es-kv__wrapper .es-kv__left {
+        margin-top: -10px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div id="es-rc">
+    <div id="es-rc-content">
+      <div class="es-kv">
+        <div class="es-kv__logo">
+          <img src="./img/logo.png" loading="lazy" alt="Sodastream" />
+        </div>
+        <div class="es-kv__background-text">Syrop</div>
+        <div class="es-kv__wrapper">
+          <div class="es-kv__left">
+            <h2 class="es-h1">
+              SODASTREAM<br />
+              syrop malina, 440&nbsp;ml
+            </h2>
+            <p class="es-kv__p">
+              SodaStream Malina to pełen smaku syrop, z którym przygotujesz
+              gazowany, malinowy napój w kilka sekund – z idealną ilością
+              bąbelków i bez dodatku cukru. Świeży i orzeźwiający – idealny dla
+              tych, którzy cenią lekkość, ale nie chcą rezygnować z wyrazistego
+              smaku.
+            </p>
+            <p class="es-kv__p--bold">Malinowe bąbelki z charakterem!</p>
+          </div>
+          <div class="es-kv__right">
+            <img
+              src="./img/bottle.png"
+              class="es-kv__img"
+              loading="lazy"
+              alt="Butelka"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="es-change">
+        <div class="es-change__background"></div>
+        <div class="es-change__leaf1">
+          <img src="./img/left-circle.png" loading="lazy" alt="" />
+        </div>
+        <h2 class="es-h2">
+          Zmień swoją wodę gazowaną w malinowe orzeźwienie...
+        </h2>
+        <div class="es-change__wrapper">
+          <div class="es-change__single">
+            <div class="es-change__single-dot"></div>
+            <div class="es-change__single-title">
+              Delektuj się intensywnym smakiem malin - bez dodatku cukru.
+            </div>
+            <div class="es-change__single-img">
+              <img src="./img/change_1.png" loading="lazy" alt="Dla fanów" />
+            </div>
+          </div>
+          <div class="es-change__single">
+            <div class="es-change__single-dot"></div>
+            <div class="es-change__single-title">
+              Dostosuj poziom bąbelków i intensywność smaku według własnych
+              upodobań.
+            </div>
+            <div class="es-change__single-img">
+              <img
+                src="./img/change_2.png"
+                loading="lazy"
+                alt="Dla miłośników"
+              />
+            </div>
+          </div>
+          <div class="es-change__leaf2"></div>
+          <div class="es-change__single">
+            <div class="es-change__single-dot"></div>
+            <div class="es-change__single-title">
+              Eksperymentuj! Połącz malinową bazę z cytryną, miętą lub świeżymi
+              owocami.
+            </div>
+            <div class="es-change__single-img es-change__single-img3">
+              <img
+                src="./img/change_3.png"
+                loading="lazy"
+                alt="Dla entuzjastów"
+              />
+            </div>
+          </div>
+          <div class="es-change__leaf3">
+            <img src="./img/raspberry.png" loading="lazy" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="es-one-soda">
+        <h2 class="es-one-soda__h2">
+          Jedna SodaStream -&nbsp;Wiele Możliwości
+        </h2>
+        <div class="es-one-soda__img">
+          <img src="./img/one_soda.jpg" loading="lazy" alt="Wiele Możliwości" />
+        </div>
+        <div class="es-one-soda__wrapper-outer">
+          <div class="es-one-soda__background"></div>
+          <div class="es-one-soda__wrapper">
+            <div class="es-one-soda__single">
+              <div class="es-one-soda__single-img">
+                <img src="./img/gazuj.png" loading="lazy" alt="Gazuj" />
+              </div>
+              <div class="es-one-soda__single-title">gazuj</div>
+            </div>
+            <div class="es-one-soda__single">
+              <div class="es-one-soda__single-img">
+                <img src="./img/miksuj.png" loading="lazy" alt="Miksuj" />
+              </div>
+              <div class="es-one-soda__single-title">miksuj</div>
+            </div>
+            <div class="es-one-soda__single">
+              <div class="es-one-soda__single-img">
+                <img src="./img/smakuj.png" loading="lazy" alt="Smakuj" />
+              </div>
+              <div class="es-one-soda__single-title">smakuj</div>
+            </div>
+          </div>
+          <div class="es-text es-one-soda__text">
+            SodaStream Malina to intensywny, owocowy smak, który przygotujesz
+            dokładnie tak, jak lubisz – bez wychodzenia z domu. Chcesz by była
+            delikatnie musująca czy pełna bąbelków? Wybierzesz wersję solo czy w
+            orzeźwiającym połączeniu z cytryną i miętą? Ty decydujesz!
+          </div>
+        </div>
+      </div>
+      <div class="es-perfect">
+        <h2 class="es-h2">Jak przygotować malinowy napój gazowany?</h2>
+        <p class="es-text es-perfect__text">
+          Tworzenie domowego napoju malinowego jest szybkie, proste i pozwala Ci
+          w pełni kontrolować jego smak.
+        </p>
+        <div class="es-perfect__background-text">1-2-3... Gotowe!</div>
+        <div class="es-perfect__wrapper">
+          <div class="es-perfect__single">
+            <div class="es-perfect__single-number">1</div>
+            <div class="es-perfect__single-img">
+              <img src="./img/1.png" loading="lazy" alt="Krok 1" />
+            </div>
+            <div class="es-perfect__single-text">
+              Krok 1: Nagazuj wodę – wybierz poziom nagazowania bąbelków, od
+              lekkiego po mocny, dokładnie tak, jak lubisz.
+            </div>
+          </div>
+          <div class="es-perfect__single">
+            <div class="es-perfect__single-number">2</div>
+            <div class="es-perfect__single-img">
+              <img src="./img/2.png" loading="lazy" alt="Krok 2" />
+            </div>
+            <div class="es-perfect__single-text">
+              Krok 2: Dodaj syrop – odmierz porcję, wlewając do środkowej linii
+              na korku, a następnie dodaj do wody.
+            </div>
+          </div>
+          <div class="es-perfect__single">
+            <div class="es-perfect__single-number">3</div>
+            <div class="es-perfect__single-img">
+              <img src="./img/3.png" loading="lazy" alt="Krok 3" />
+            </div>
+            <div class="es-perfect__single-text">
+              Krok 3: Przelej napój do szklanki i uzupełnij ulubionymi dodatkami
+              np. kostkami lodu, malinami lub sokiem z limonki.
+            </div>
+          </div>
+        </div>
+        <div class="es-perfect__disclaimer">
+          *PAMIĘTAJ! Nie gazuj wody z dodatkami oraz innych płynów, np. soków.
+          Ulubione owoce lub syrop SodaStream należy dodać do nagazowanej wody.
+        </div>
+      </div>
+      <div class="es-change es-change2">
+        <div class="es-change__background es-change__background2"></div>
+        <div class="es-change__leaf1 es-change__leaf1-2">
+          <img src="./img/raspberry-left.png" loading="lazy" alt="" />
+        </div>
+        <h2 class="es-h2 es-h2-2">
+          Malinowe orzeźwienie z witaminami i cynkiem**
+        </h2>
+        <div class="es-change__wrapper">
+          <div class="es-change__single">
+            <div class="es-change__single-img es-change__single-img2">
+              <div
+                class="es-change__single-group es-change__single-group-first"
+              >
+                <div class="es-change__single-title es-change__single-title2">
+                  Witamina B3
+                </div>
+                <div class="es-change2__single-description">
+                  Działasz na pełnych obrotach? Niacyna pomaga zmniejszyć
+                  uczucie znużenia – teraz znajdziesz ją także w swoim syropie
+                  SodaStream o smaku Malinowym.
+                </div>
+              </div>
+              <img
+                src="./img/change_2-1.png"
+                loading="lazy"
+                alt="Dla fanów"
+                class="es-change2__img-1"
+              />
+            </div>
+          </div>
+          <div class="es-change__single">
+            <div class="es-change__single-img es-change__single-img2">
+              <div
+                class="es-change__single-group es-change__single-group-second"
+              >
+                <div class="es-change__single-title es-change__single-title2">
+                  Witamina B6
+                </div>
+                <div class="es-change2__single-description">
+                  Czas na mały impuls do działania! Witamina B6, którą
+                  znajdziesz w syropie SodaStream o smaku Malinowym wspiera
+                  funkcje psychiczne, byś mógł czerpać z dnia pełnymi garściami.
+                </div>
+              </div>
+              <img
+                src="./img/change_2-2.png"
+                loading="lazy"
+                alt="Dla miłośników"
+              />
+            </div>
+          </div>
+          <div class="es-change__leaf2"></div>
+          <div class="es-change__single">
+            <div class="es-change__single-img es-change__single-img2">
+              <div
+                class="es-change__single-group es-change__single-group-third"
+              >
+                <div class="es-change__single-title es-change__single-title2">
+                  Cynk
+                </div>
+                <div class="es-change2__single-description">
+                  Dodaj sobie mocy z każdą kroplą napoju! Cynk pomaga w
+                  prawidłowym funkcjonowaniu układu odpornościowego – teraz
+                  znajdziesz go także w syropie SodaStream o smaku Malinowym.
+                </div>
+              </div>
+              <img
+                src="./img/change_2-3.png"
+                loading="lazy"
+                alt="Dla entuzjastów"
+                class="es-change2__img-3"
+              />
+            </div>
+          </div>
+          <div class="es-change__leaf3 es-change__leaf3-1">
+            <img src="./img/right-circle.png" loading="lazy" alt="" />
+          </div>
+        </div>
+        <div class="es-perfect__disclaimer es-perfect__disclaimer2">
+          **Witaminy i minerały zawarte w produkcie wspierają prawidłowe
+          funkcjonowanie organizmu. <br />
+          Nie zastępują jednak zróżnicowanej diety ani zdrowego trybu życia,
+          które są podstawą dobrego zdrowia.
+        </div>
+      </div>
+      <div class="es-bottle">
+        <div class="es-bottle__wrapper">
+          <div class="es-bottle__single">
+            <div class="es-bottle__single-wrapper">
+              <h2 class="es-bottle__h2">Mała butelka, wielkie możliwości</h2>
+            </div>
+          </div>
+          <div class="es-bottle__single">
+            <img src="./img/small_bottle.png" loading="lazy" alt="Butelka" />
+            <img
+              class="es-bottle__leaf1"
+              src="./img/circles-left-2.png"
+              loading="lazy"
+              alt=""
+            />
+            <img
+              class="es-bottle__leaf2"
+              src="./img/circles-right-2.png"
+              loading="lazy"
+              alt=""
+            />
+          </div>
+          <div class="es-bottle__single es-bottle__single-third">
+            <div class="es-bottle__single-wrapper">
+              <p class="es-bottle__text">
+                Niech cię nie zwiedzie mała pojemność - 440 ml syropu SodaStream
+                o smaku malinowym pozwoli Ci przygotować<br />
+                <span class="es-bottle__h2">aż 9 litrów</span><br />
+                pysznego napoju o intensywnym malinowym smaku.
+              </p>
+              <img
+                src="./img/raspberry-small.png"
+                loading="lazy"
+                alt=""
+                class="es-bottle__single-third-image"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="es-day">
+        <h2 class="es-h2">Malinowe odprężenie na każdą okazję</h2>
+        <div class="es-text es-day__text">
+          Malinowe smaki sprawdzą się w każdej sytuacji – od porannego ożywienia
+          po wieczorny relaks. Bez względu na porę dnia możesz cieszyć się jej
+          owocową świeżością w najlepszym wydaniu.
+        </div>
+        <div class="es-day__wrapper">
+          <div class="es-day__wrapper-background"></div>
+          <div class="es-day__single">
+            <div class="es-day__single-text">
+              <span class="es-bold">Poranny moktajl</span><br />
+              Zamiast soku wybierz lekkie orzeźwienie! Delikatnie gazowana woda
+              z malinowym twistem, lodem i cytryną to świetny sposób na
+              rozpoczęcie dnia.
+            </div>
+            <div class="es-day__single-img">
+              <img src="./img/day_1.png" loading="lazy" alt="Poranek" />
+            </div>
+          </div>
+          <div class="es-day__single">
+            <div class="es-day__single-sun"></div>
+            <div class="es-day__single-text">
+              <span class="es-bold">Chwila wytchnienia</span><br />
+              Dodaj mrożone maliny i świeżą miętę, by stworzyć błyskawiczny
+              napój pełen owocowej energii. To idealna propozycja, gdy
+              potrzebujesz szybkiego odświeżenia.
+            </div>
+            <div class="es-day__single-img">
+              <img src="./img/day_2.png" loading="lazy" alt="Dzień" />
+            </div>
+          </div>
+          <div class="es-day__single">
+            <div class="es-day__single-text">
+              <span class="es-bold">Wieczorny relaks </span><br />
+              Po długim dniu zasługujesz na coś wyjątkowego. Połącz malinowy
+              napój SodaStream z cytrusami i listkami bazylii, by odkryć
+              subtelną, a jednocześnie intensywną kompozycję smaków.
+            </div>
+            <div class="es-day__single-img">
+              <img src="./img/day_3.png" loading="lazy" alt="Wieczór" />
+            </div>
+          </div>
+          <div class="es-day__wrapper-blue-background"></div>
+        </div>
+      </div>
+      <div class="es-bubble">
+        <div class="es-bubble__background"></div>
+        <h2 class="es-h2 es-bubble__h2">Bąbelkowe kompendium wiedzy</h2>
+        <div class="es-bubble__text">
+          <span class="es-bold"
+            >Czym różnią się saturatory SodaStream Art i Terra?</span
+          ><br />
+          W obu modelach możesz w prosty i szybki sposób przygotować wodę
+          gazowaną, ale różnią się designem i obsługą. Terra to nowoczesne
+          urządzenie o minimalistycznym designie, które umożliwia gazowanie wody
+          za pomocą przycisku. Art to natomiast stylowe urządzenie z dźwignią do
+          gazowania, inspirowane retro estetyką.
+        </div>
+        <div class="es-bubble__text">
+          <span class="es-bold"
+            >Czy do saturatora SodaStream pasuje dowolna butelka?</span
+          ><br />
+          Nie, saturatory SodaStream wymagają specjalnych butelek, które są
+          dostosowane do procesu gazowania. Ich unikalna konstrukcja pozwala
+          kreować bąbelki aż przez 4 lata użytkowania.
+        </div>
+        <div class="es-bubble__text">
+          <span class="es-bold"
+            >Na jak długo wystarcza nabój z gazem SodaStream?</span
+          ><br />
+          Jeden cylinder CO₂ wystarcza na przygotowanie około 60 litrów wody
+          gazowanej – to równowartość aż 40 butelek o pojemności 1,5 l. To
+          wygodne rozwiązanie, które pozwala cieszyć się bąbelkami bez
+          konieczności kupowania napojów w jednorazowych butelkach.
+        </div>
+      </div>
+      <div class="es-adventure">
+        <h2 class="es-h2">
+          Więcej bąbelków, więcej smaku - więcej przyjemności
+        </h2>
+        <div class="es-adventure__wrapper">
+          <div class="es-adventure__tonic">
+            <img src="./img/bottle.png" loading="lazy" alt="Butelka" />
+          </div>
+          <div class="es-adventure__top-row">
+            <div class="es-adventure__top-row__single">
+              <div class="es-adventure__top-row__single-text">
+                <span class="es-bold"
+                  >Kultowe napoje<br />w domowym wydaniu</span
+                ><br />
+                Pepsi, Pepsi Cherry, Mirinda, Lipton Ice Tea Lemon, 7UP –
+                wszystko, co znasz i lubisz, teraz masz w zasięgu ręki.
+              </div>
+              <div class="es-adventure__top-row__single-img">
+                <img
+                  src="./img/lipton.png"
+                  loading="lazy"
+                  alt="Lipton"
+                  class="es-adventure__top-row__single-img-1"
+                />
+              </div>
+            </div>
+            <div class="es-adventure__top-row__single">
+              <div class="es-adventure__top-row__single-text">
+                <span class="es-bold"
+                  >Klasyczne smaki,<br />które zawsze się sprawdzają </span
+                ><br />
+                Cola, Xtreme Energy, Cytryna Limonka i Tonik – to wyraziste
+                smaki, z którymi stworzysz napoje z charakterem.
+              </div>
+              <div class="es-adventure__top-row__single-img">
+                <img
+                  src="./img/cola.png"
+                  loading="lazy"
+                  alt="Cola"
+                  class="es-adventure__top-row__single-img-2"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="es-adventure__bottom-row">
+            <div class="es-adventure__bottom-row__single">
+              <div class="es-adventure__bottom-row__single-img">
+                <img
+                  src="./img/fruits.png"
+                  loading="lazy"
+                  alt="Owoce"
+                  class="es-adventure__bottom-row__single-img-3"
+                />
+              </div>
+              <div class="es-adventure__bottom-row__single-text">
+                <span class="es-bold"
+                  >Owocowe<br />połączenia pełne orzeźwienia</span
+                ><br />
+                Lemoniada, Owoce Leśne, Kwiat Czarnego Bzu, Pomarańcza Mango –
+                owocowe napoje to idealny wybór na ciepłe dni. Ciesz się słodkim
+                orzeźwieniem – bez dodatku cukru.
+              </div>
+            </div>
+            <div class="es-adventure__bottom-row__single">
+              <div class="es-adventure__bottom-row__single-img">
+                <img
+                  src="./img/crafted.png"
+                  loading="lazy"
+                  alt="SodaStream Crafted"
+                  class="es-adventure__bottom-row__single-img-4"
+                />
+              </div>
+              <div class="es-adventure__bottom-row__single-text">
+                <span class="es-bold"
+                  >Kreatywne<br />smaki prosto z domowego baru</span
+                ><br />
+                SodaStream Crafted to bezalkoholowe bazy, które zachwycą fanów
+                miksologii. Twórz z nimi orzeźwiające koktajle i odkrywaj
+                nieoczywiste połączenia.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="es-end">
+        <div class="es-h2">
+          <span class="es-end__big">To nie koniec!</span><br />
+          W portfolio SodaStream znajdziesz też:
+        </div>
+        <div class="es-end__img">
+          <img src="./img/bottles.png" loading="lazy" alt="Syropy" />
+        </div>
+        <div class="es-h2 es-end__hashtag">#JednaSodaStreamWieleMożliwości</div>
+        <div class="es-end__logo">
+          <img src="./img/logo.png" loading="lazy" alt="Logotyp" />
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
